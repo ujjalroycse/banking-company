@@ -64,13 +64,17 @@ ul li a:hover{
 }
 .btn01{
     color: var(--color03);
-    padding: 12px 25px;
+    padding: 13px 25px;
     border-radius: 82px;
+    transition: 0.2s;
+}
+.btn01:hover{
+    background: var(--color06);
 }
 .btn02{
     background-color: var(--color02);
     color: var(--color05);
-    padding: 14px 25px;
+    padding: 13px 25px;
     border-radius: 82px;
     position: relative;
 }
@@ -81,6 +85,7 @@ ul li a:hover{
 body{
     font-family: 'Lexend', sans-serif;
     background: var(--color01) url("../images/home-page/background.png") no-repeat;
+    overflow-x: hidden;
 }
 
 /******* Home Area Css *******/
@@ -351,4 +356,65 @@ body{
 .use_cases_btn .btn01{
     background-color: var(--color06);
     margin-top: 20px;
+}
+
+
+.features_area .section_title_content{
+    width: 80%;
+}
+#feature_tab_btn{
+    padding: 40px;
+    background-color: var(--color05);
+    border-radius: 15px;
+}
+.features_tab_area .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: var(--color02) !important;
+	background-color: var(--color01);
+	/* border-radius: 30px; */
+}
+.features_tab_area .nav-pills .nav-link {
+	border-radius: 30px ;
+	padding: 16px 22px ;
+	color: var(--color03) ;
+	border: 1px solid var(--color06) ;
+}
+#feature_content_area{
+    width: 75%;
+}
+.feature_tabs {
+    grid-template-columns: 50% 50%;
+    grid-gap: 25px;
+}
+.feature_box{
+    background: var(--color05);
+    padding: 35px;
+    border-radius: 10px;
+}
+.feature_box_title h3{
+    font-size: 20px;
+}
+.feature_box_title i{
+    color: var(--color02);
+    font-size: 20px;
+}
+.feature_box p,
+.faq_content_box p{
+    font-size: 15px;
+}
+
+.faq_content_area{
+    grid-template-columns: 49% 49% ;
+    grid-gap: 30px;
+    background: linear-gradient(180deg, rgba(25, 25, 25, 0.00) 70%, var(--color01) 100%);
+    z-index: 111111;
+
+}
+.faq_content_box{
+    padding: 35px 40px 20px;
+    border-radius: 15px;
+    border: 1px solid var(--color06);
+    z-index: -1;
+}
+.faq_btn .btn01{
+    border: 1px solid var(--color06);
 }
