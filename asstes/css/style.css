@@ -58,7 +58,8 @@ ul li a {
 	font-size: 16px;
     transition: 0.3s all ease;
 }
-ul li a:hover{
+ul li a:hover,
+ul li.active a{
 	background-color: var(--color06);
     border-radius: 82px;
 }
@@ -88,7 +89,12 @@ body{
     overflow-x: hidden;
 }
 
-/******* Home Area Css *******/
+    /* **************** */
+    /* **************** */
+/******* Home Page Css *******/
+    /* **************** */
+    /* **************** */
+
 .header_area{
     margin-top: 50px;
 }
@@ -264,6 +270,10 @@ body{
     color: var(--color02);
 }
 
+    /* **************** */
+/******* Product Area Css *******/
+    /* **************** */
+
 .products_area{
     margin-top: 40px;
 }
@@ -315,6 +325,10 @@ body{
     font-size: 15px;
 }
 
+    /* **************** */
+/******* Case Area Css *******/
+    /* **************** */
+
 .use_cases_icon_text{
     background: var(--color05) url('../images/home-page/use-cases-shap.png') no-repeat top left;
     padding: 40px 35px; 
@@ -358,6 +372,9 @@ body{
     margin-top: 20px;
 }
 
+    /* **************** */
+/******* Feature Area Css *******/
+    /* **************** */
 
 .features_area .section_title_content{
     width: 80%;
@@ -402,6 +419,10 @@ body{
     font-size: 15px;
 }
 
+    /* **************** */
+/******* FAQ Area Css *******/
+    /* **************** */
+
 .faq_content_area{
     grid-template-columns: 49% 49% ;
     grid-gap: 30px;
@@ -417,4 +438,355 @@ body{
 }
 .faq_btn .btn01{
     border: 1px solid var(--color06);
+}
+
+    /* **************** */
+/******* Testimonial Area Css *******/
+    /* **************** */
+
+#testimonial_carousel{ 
+    position: relative;
+    width: 93%;
+    margin: auto;
+}
+#testimonial_carousel .owl-carousel{ 
+    background: linear-gradient(90deg, var(--color01) 0%, rgba(0, 0, 0, 0.7) 50%, var(--color01) 100%);
+
+}
+#testimonial_carousel .owl-nav button i{
+    font-size: 20px ;
+    color: var(--color02);
+    padding: 15px 16px;
+    background-color: var(--color05);
+    border: 1px solid var(--color06);
+    border-radius: 50%;
+}
+#testimonial_carousel .owl-nav .owl-prev{
+    position: absolute;
+    top: 45%;
+    left: -50px;
+}
+#testimonial_carousel .owl-nav .owl-next{
+    position: absolute;
+    top: 45%;
+    right:  -50px;
+}
+.owl_content{
+    width: 90%;
+    height: 100%;
+    padding:40px 15px;
+    margin-left: 20px;
+}
+.quote_icon{
+    width: 40px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.owl_content h4{
+    color: var(--color02);
+}
+.owl_content p{
+    font-size: 16px;
+}
+
+    /* **************** */
+/******* Account Area Css *******/
+    /* **************** */
+
+.open_account_area .section_title{
+    background: var(--color05) url('../images/home-page/use-cases-shap.png') no-repeat;
+    padding: 50px ;
+    border-radius: 25px;
+    border: 1px solid var(--color06);
+}
+.open_account_area .section_title_content{
+    width: 75%;
+}
+.open_account_area .section_title_content h1{
+    font-size: 34px;
+    font-weight: 400;
+}
+
+
+    /* **************** */
+    /* **************** */
+/******* Career Page Css *******/
+    /* **************** */
+    /* **************** */
+
+.career_header_content {
+    background: var(--color05) url("../images/home-page/use-cases-shap02.png") no-repeat top right;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+}
+.career_header_image img{
+    width: 60%;
+}
+.career_heading_dis{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 50%;
+    background: var(--color01);
+    border-radius: 20px 0 60px 20px;
+    padding: 55px 55px 0;
+}
+.career_heading_dis .section_title_content{
+    width: 100%;
+}
+
+    /* **************** */
+/******* value Area Css *******/
+    /* **************** */
+
+.value_area .section_title_content{
+    width: 95%;
+}
+.value_content_area{
+    grid-template-columns: 48% 48%;
+    grid-gap: 50px;
+}
+.value_content_box{
+    border-left: 1px solid var(--color02);
+    padding-left: 30px;
+}
+.value_content_box h1{
+    color: #4C4C4D;
+    margin: 5px 0 20px;
+    font-size: 40px;
+}
+.value_content_box p{
+    margin-bottom: 5px;
+}
+
+    /* **************** */
+/******* Benefit Area Css *******/
+    /* **************** */
+
+.benefit_area .section_title_content,.job_opening_area .section_title_content{
+    width: 80%;
+}
+.benefit_content{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 50px;
+}
+.benefit_content_box{
+    background: linear-gradient(106deg, rgba(202, 255, 51, 0.05) -29.45%, rgba(202, 255, 51, 0.00) 27.86%), linear-gradient(267deg, #1C1C1C 40.67%, rgba(28, 28, 28, 0.00) 99.81%);
+    border: 1px solid rgba(202, 255, 51, 0.10);
+    background-blend-mode: normal, normal, screen;
+    padding: 30px 10px;
+}
+.benefit_content_box p{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.benefit_box_title .product_icon_shadow{
+    margin: 0 15px 0 0;
+}
+.benefit_content_box01,.benefit_content_box04{
+    border-radius: 40px 14px;
+}
+.benefit_content_box02,.benefit_content_box03{
+    border-radius: 14px 40px;
+}
+
+    /* **************** */
+/******* Job opening Area Css *******/
+    /* **************** */
+
+.job_opening_content{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 20px;
+}
+.job_opening_content_box{
+    background: var(--color05);
+    padding: 35px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+.job_location{
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+.job_location span{
+    background-color: var(--color01);
+    padding: 6px 12px;
+    border-radius: 30px;
+    display: inline-block;
+    color: var(--color04);
+    font-weight: 300;
+    font-size: 15px;
+    border: 1px solid var(--color06);
+}
+.job_opening_content_box p{
+    margin: 20px 0 40px;
+}
+.job_opening_content_box ul{
+    flex-direction: column;
+    align-items: start;
+    margin: 20px 0 60px;
+}
+.job_opening_content_box ul li{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--color04);
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.job_opening_content_box ul li i{
+    margin-right: 8px;
+}
+
+
+    /* **************** */
+    /* **************** */
+/******* About Page Css *******/
+    /* **************** */
+    /* **************** */
+
+.mi_vi_text_box{
+    display: grid;
+    grid-template-columns: 38% 58%;
+    align-items: center;
+}
+.mi_vi_img{
+    padding: 40px;
+    padding-bottom: 0;
+    background: var(--color05) url('../images/about-page/mission-&-vision-shap.png') no-repeat center/93%;
+    border-radius: 30px 30px 15px 15px;
+}
+.mi_vi_img img{
+    width: 100%;
+}
+.mi_vi_text{
+    border-left: 1px solid var(--color02);
+    padding: 0 0 0 40px ;
+}
+.mi_vi_text p{
+    margin: 20px 0 0 0;
+    font-size: 16px;
+}
+.mi_vi_content02{
+    margin-top: -60px;
+}
+.mi_vi_content02 .mi_vi_img{
+    order: 2;
+}
+.mi_vi_text_box02{
+    grid-template-columns: 58% 38%;
+}
+.mi_vi_text_box02 .mi_vi_text{
+    border-right: 1px solid var(--color02);
+    border-left: 0;
+    padding: 0 40px 0 0;
+}
+
+    /* **************** */
+/******* Press release Area Css *******/
+    /* **************** */
+.press_release_content{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 20px;
+}
+.press_release_content_box{
+    padding: 20px;
+    background: var(--color05);
+    border-radius: 30px;
+    transition: 0.2s all ease;
+    cursor: pointer;
+}
+.press_release_content_box:hover{
+    background: #232323;
+    transform: scale(1.01);
+}
+.press_release_content_box img{
+    width: 100%;
+}
+.pr_re_text{
+    padding: 25px;
+    padding-bottom: 0;
+    margin-top: 20px;
+}
+.pr_re_text h3{
+    font-size: 19px;
+    font-weight: 400;
+}
+.pr_re_loc_date{
+    margin: 10px;
+}
+.pr_re_loc_date span{
+    color: var(--color04);
+    padding: 6px 12px;
+    display: inline-block;
+    background: var(--color01);
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 30px;
+}
+.pr_re_text p{
+    font-size: 15px;
+}
+
+    /* **************** */
+    /* **************** */
+/******* Security Page Css *******/
+    /* **************** */
+    /* **************** */
+
+.protect_area .section_title_content{
+    width: 85%;
+}
+.protect_area .benefit_content{
+    background: url('../images/security-page/background-shap.png') no-repeat left top/100% ;
+    height: 90%;
+    padding: 50px;
+}
+.protect_area .benefit_content{
+    grid-gap: 25px;
+}
+.protect_area .benefit_content_box{
+    border-radius: 30px;
+}
+.product_icon img{
+    width: 70%;
+  margin-top: 8px;
+}
+
+    /* **************** */
+/******* Footer Area Css *******/
+    /* **************** */
+
+.footer_area{
+    background: var(--color05);
+    padding-bottom: 40px;
+}
+.footer_contact span{
+    margin: 0 15px;
+}
+.footer_contact span i{
+    color: var(--color02);
+}
+.social_copyright{
+    background: var(--color01);
+    padding: 20px;
+    border-radius: 30px;
+}
+.social_icons a {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: var(--color02);
+	border-radius: 50%;
+	color: var(--color01);
+	padding: 3px 7px;
+    margin-right: 2px;
+}
+.social_copyright p{
+    margin: 0;
+    font-size: 14px;
 }
