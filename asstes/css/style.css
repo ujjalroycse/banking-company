@@ -697,7 +697,7 @@ body{
     padding: 20px;
     background: var(--color05);
     border-radius: 30px;
-    transition: 0.2s all ease;
+    transition: 0.2s;
     cursor: pointer;
 }
 .press_release_content_box:hover{
@@ -716,6 +716,9 @@ body{
     font-size: 19px;
     font-weight: 400;
 }
+.press_release_content_box:hover h3{
+    color: var(--color02);
+}
 .pr_re_loc_date{
     margin: 10px;
 }
@@ -730,6 +733,15 @@ body{
 }
 .pr_re_text p{
     font-size: 15px;
+}
+.press_read_more a{
+    color: var(--color03);
+    font-weight: 300;
+    font-style: 14px;
+    transition: 0.2s;
+}
+.press_release_content_box:hover .press_read_more a{
+    color: var(--color02);
 }
 
     /* **************** */
@@ -755,6 +767,153 @@ body{
 .product_icon img{
     width: 70%;
   margin-top: 8px;
+}
+
+    /* **************** */
+    /* **************** */
+/******* Login & Registration Page Css *******/
+    /* **************** */
+    /* **************** */
+
+.login_content_area{
+    width: 80% ;
+    margin: auto;
+    background: var(--color01) url('../images/login-shape.png') no-repeat center/100%;
+    background-blend-mode: overlay;
+    border-radius: 15px;
+    position: relative;
+}
+.login_shape{
+    background: url('../images/home-page/use-cases-shap02.png') no-repeat top right;
+    padding: 100px;
+}
+.login_form{
+    text-align: center;
+    margin: 50px 0 10px 0;
+}
+.form-row{
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+.form-row input{
+    background: var(--color01);
+    border: none;
+    padding: 15px 25px;
+    color: var(--color03);
+    border-radius: 30px;
+}
+.form-row input::placeholder{
+    color: var(--color04);
+    font-weight: 300;
+}
+.form-row input:focus{
+    background: var(--color06);
+    box-shadow: none;
+    color: var(--color03);
+}
+.login_form a{
+    color: var(--color03);
+    text-decoration: underline;
+    margin: 30px 0;
+    display: inline-block;
+}
+.form_btns .button {
+	width: 50%;
+	margin-bottom: 15px;
+	border: none;
+	outline: none;
+    transition: 0.2s;
+}
+.form_btns .btn01{
+    background: var(--color06);
+}
+.form_btns .button:hover{
+    background: var(--color01);
+    color: var(--color03);
+}
+.continue_with span{
+    display: inline-block;
+    width: 130px;
+    height: 1px;
+    background-color: var(--color04);
+}
+.continue_with strong{
+    margin: 0 20px;
+    font-weight: 300;
+    color: var(--color04);
+}
+.continue_icons .product_icon_shadow{
+    margin: 0 10px;
+}
+.continue_icons .product_icon_shadow a i{
+    color: var(--color02);
+    font-size: 22px;
+    padding: 14px;
+}
+
+
+    /* **************** */
+    /* **************** */
+/******* 404 Page Css *******/
+    /* **************** */
+    /* **************** */
+
+.error_content{
+    width: 40%;
+    height: 100vh;
+    margin: auto;
+    padding-top: 140px;
+    text-align: center;
+}
+.error_content h1 {
+	font-size: 200px;
+	color: var(--color02);
+	font-weight: 900;
+	letter-spacing: 10px;
+	text-shadow: 5px -5px 8px var(--color02);
+}
+.error_content h3{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.error_content p{
+    padding: 0 40px;
+    font-size: 16px;
+}
+.error_btns{
+    margin-top: 30px;
+}
+.error_btns a{
+    width: 230px;
+    height: 50px;
+    padding-top: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid var(--color06);
+    color: var(--color03);
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: 0.2s;
+}
+.error_btns a:hover{
+    box-shadow: 0 0 30px -6px var(--color04) inset;
+    color: var(--color02);
+}
+
+
+
+.single_content img{
+    width: 100%;
+    margin: 30px 0;
+}
+.single_cat_loc{
+    margin-bottom: 15px;
+}
+.single_category p{
+    margin: 0;
+}
+.single_category p span{
+    color: var(--color02);
 }
 
     /* **************** */
