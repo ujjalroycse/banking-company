@@ -1,0 +1,59 @@
+@media all and (max-width:1400px){
+
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 16px;
+    }
+
+    .yourbank_right_content {
+        width: 75%;
+    }
+}
+@media all and (max-width:1200px){
+
+    h1 {
+        font-size: 33px;
+    }
+    ul li a {
+        font-size: 15px;
+    }
+    .btn01,.btn02{
+        font-size: 15px;
+        padding: 11px 24px;
+    }
+    .logo_area img {
+        width: 80%;
+    }
+    .joel h4 {
+        font-size: 15px;
+    }
+    .joel h5 {
+        font-size: 14px;
+    }
+
+    .yourbank_right_content {
+        width: 90%;
+        margin-right: 10px;
+    }
+
+@media all and (min-width:990px){
+
+}
+
+@media all and (max-width:990px){
+
+}
+
+@media all and (max-width:768px){
+
+}
+
+@media all and (max-width:575px){
+
+}
+
+@media all and (max-width:450px){
+
+}
