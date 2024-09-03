@@ -1,59 +1,151 @@
-@media all and (max-width:1400px){
+@media all and (max-width: 1400px) {
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 16px;
+  }
 
-    h1 {
-        font-size: 40px;
-    }
-    p {
-        font-size: 16px;
-    }
-
-    .yourbank_right_content {
-        width: 75%;
-    }
+  .yourbank_right_content {
+    width: 75%;
+  }
 }
-@media all and (max-width:1200px){
+@media all and (max-width: 1200px) {
+  h1 {
+    font-size: 33px;
+  }
+  ul li a {
+    font-size: 15px;
+  }
+  .section_padding {
+    padding: 60px 0;
+  }
+  .btn01,
+  .btn02 {
+    font-size: 15px;
+    padding: 11px 24px;
+  }
+  .main_header {
+    border-radius: 0;
+  }
+  .logo_area img {
+    width: 80%;
+  }
 
-    h1 {
-        font-size: 33px;
-    }
-    ul li a {
-        font-size: 15px;
-    }
-    .btn01,.btn02{
-        font-size: 15px;
-        padding: 11px 24px;
-    }
-    .logo_area img {
-        width: 80%;
-    }
-    .joel h4 {
-        font-size: 15px;
-    }
-    .joel h5 {
-        font-size: 14px;
-    }
+  .use_cases_icon_text .product-content h3 {
+    font-size: 13px;
+  }
 
-    .yourbank_right_content {
-        width: 90%;
-        margin-right: 10px;
-    }
+  .supported_currency_area {
+    right: -35px;
+  }
 
-@media all and (min-width:990px){
+  .joel h4 {
+    font-size: 15px;
+  }
+  .joel h5 {
+    font-size: 14px;
+  }
 
+  .yourbank_right_content {
+    width: 90%;
+    margin-right: 10px;
+  }
 }
 
-@media all and (max-width:990px){
+@media all and (max-width: 991px) {
+  .section_padding {
+    padding: 40px 0;
+  }
 
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 740px;
+  }
+  .section_title {
+    margin-bottom: 30px;
+  }
+  .section_title_content {
+    width: 66%;
+  }
+
+  .main_header .buttons {
+    display: none;
+  }
+  .yourbank_header {
+    margin-top: 10px;
+    background: url("../images/home-page/Abstractdesign.png") no-repeat bottom 0
+      right 70px/400px auto;
+  }
+  .yourbank_right_content {
+    width: 92%;
+    margin-top: 65px;
+  }
+
+  .section_title_btn {
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .product-content {
+    margin-top: 20px;
+  }
+
+  .features_area .section_title_content {
+    width: 100%;
+  }
+
+  .features_tab {
+    flex-direction: column;
+  }
+  #feature_tab_btn {
+    padding: 20px;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  #feature_content_area {
+    width: 96%;
+  }
+
+  .faq_content_area {
+    grid-template-columns: 100%;
+  }
+
+  .open_account_area .section_title {
+    flex-direction: column;
+  }
+  .open_account_area .section_title_content {
+    width: 100%;
+  }
 }
 
-@media all and (max-width:768px){
+@media all and (max-width: 767px) {
 
+  .header_area{
+    background-color: var(--color05);
+    margin-top: 20px;
+  }
+  .main_header {
+  padding: 15px 0;
+}
+  #testimonial_carousel .owl-nav .owl-prev {
+  position: absolute;
+  top: 45%;
+  left: -20px;
+  }
+  #testimonial_carousel .owl-nav .owl-next {
+    position: absolute;
+    top: 45%;
+    right: -20px;
+  }
 }
 
-@media all and (max-width:575px){
-
+@media all and (max-width: 575px) {
 }
 
-@media all and (max-width:450px){
-
+@media all and (max-width: 450px) {
 }
